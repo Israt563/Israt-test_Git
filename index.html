@@ -1,0 +1,101 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .profile-pic {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 0;
+        }
+        .section-title {
+            color: #ff6347;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .content {
+            margin-bottom: 30px;
+        }
+        a {
+            color: #ff6347;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .experience, .work {
+            list-style-type: none;
+            padding: 0;
+        }
+        .experience li, .work li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="C:\Users\israt\OneDrive\Desktop\images\israt.jpg" alt="Israt Solaiman Chowdhury" class="profile-pic">
+
+        <div class="content">
+            <h1>Hi, I am Israt Solaiman Chowdhury</h1>
+            <h2>Software Developer</h2>
+            <p>My name is Israt, I am a final year student of Segi University. My course is Information Technology Hons (BIT). My hobbies are playing badminton and traveling around. My dream is to work as a software engineer and make my parents proud.</p>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Download My Resume</h2>
+            <p>
+                <a href="C:\Users\israt\OneDrive\Desktop\israt-resume-1.pdf" download="My_Resume">Download My Resume</a>
+            </p>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">My Experience</h2>
+            <ul class="experience">
+                <li>HTML - Intermediate</li>
+                <li>JavaScript - Intermediate</li>
+                <li>Python - Intermediate</li>
+                <li>Visual Basic - Intermediate</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">My Recent Work</h2>
+            <ul class="work">
+                <li>Game Development - <a href="https://cubie.kidocode.com/courses" target="_blank">View Demo</a></li>
+                <li>Mobile Development - <a href="https://cubie.kidocode.com/courses" target="_blank">View Demo</a></li>
+                <li>Python Blocky - <a href="https://cubie.kidocode.com/courses" target="_blank">View Demo</a></li>
+                <li>Intermediate HTML - <a href="https://cubie.kidocode.com/courses" target="_blank">View Demo</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Contact Me</h2>
+            <form method="post" action="#">
+                <p><input type="text" name="name" id="name" placeholder="Name:" required></p>
+                <p><input type="email" name="email" id="email" placeholder="Email:" required></p>
+                <p><input type="text" name="subject" id="subject" placeholder="Subject:" required></p>
+                <p><textarea name="message" id="message" placeholder="Message:" rows="6" required></textarea></p>
+                <p><input type="submit" value="Send Message"></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
